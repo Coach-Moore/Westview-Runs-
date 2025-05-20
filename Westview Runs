@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coach Moore’s Track and Cross Country Page</title>
+  <style>
+    :root {
+      --blue: #004d99;
+      --orange: #ff6a00;
+      --white: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, var(--orange), var(--blue));
+      color: var(--white);
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: var(--white);
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    a.email-link {
+      color: var(--orange);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    a.email-link:hover {
+      color: var(--white);
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: var(--white);
+    }
+
+    .highlight {
+      color: var(--orange);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>Coach Moore’s Track and Cross Country Page</header>
+
+  <section>
+    <p>Welcome to the official page for <span class="highlight">Westview Track & Field and Cross Country</span>.</p>
+
+    <p>Our program is built on <strong>commitment, consistency, and culture</strong>. Whether it’s spikes on the track or miles on the trail, we run with pride — in <span class="highlight">orange and blue</span>.</p>
+
+    <p>Have a question or want to get involved?</p>
+    <p>
+      📧 <a href="mailto:Matthew.moore@ops.org" class="email-link">Matthew.moore@ops.org</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Coach Moore | Westview Athletics | Built with orange & blue pride
+  </footer>
+</body>
+</html>
